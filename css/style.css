@@ -108,7 +108,7 @@ p {
 .flex img {
     width: 20%;
     margin: 20px;
-    filter: grayscale(90%);
+    
 }
 
 .flex img:hover {
@@ -120,6 +120,11 @@ p {
     border-radius: 10px;
     padding: 3px;
     background-color: #999999;
+    filter: contrast(0.5);
+}
+
+.flex img:nth-child(odd):hover {
+    filter: contrast(1);
 }
 
 .flex img:nth-child(even) {
@@ -127,4 +132,9 @@ p {
     border-radius: 70px;
     padding: 3px;
     background-color: #999999;
+    filter: grayscale(90%);
+}
+
+.flex img:nth-child(even):hover {
+    filter: grayscale(0);
 }
