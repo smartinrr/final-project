@@ -98,7 +98,6 @@ p {
     opacity: 100%;
     transform: scale(1.5,1.5);
     z-index: 1; 
-    margin-bottom: 200px;
 }
 
 .flex {
